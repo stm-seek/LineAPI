@@ -12,8 +12,8 @@ app.use(cors())
 
  
 const lineConfig = {
-    channelAccessToken: env.ACCESS_TOKEN,
-    channelSecret: env.SECRET_TOKEN
+    channelAccessToken: 'gECPNDyVzYckkULN4jOGBVCkSLVWu2l8B+KcteWEzcUSLMqNxBYkQ9ESq9JcAtQsvwJ43PKAFm/6Pb8gMmfqhiBuuZ3a6Or/pfwe1SQKGhU8yEsaiYyKxgGp3sDI2XGuKfS8o5VrnzXjSi9n2kIHLgdB04t89/1O/w1cDnyilFU=',
+    channelSecret: 'ae71e00cdb9bea12e146b5c67d9552be'
 }
 
 
@@ -270,11 +270,11 @@ app.listen(4000, () => {
 //!database zone
 
 const connection = mysql.createConnection({
-    host: env.HOST,
-    user: env.USER,
-    password: env.PASSWORD,
-    database: env.DATABASE,
-    post: env.PORT
+    host: 'x71wqc4m22j8e3ql.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'm7k7zvf6yqprnzb3',
+    password: 'm91xvo4g4x6dttqf',
+    database: 'rfyvtbf1p7phyjc7',
+    post: 3306
 })
 
 try {
